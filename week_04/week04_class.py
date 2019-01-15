@@ -1,3 +1,4 @@
+#arithmetic operators
 a = 10
 b = 9000
 c = a+b
@@ -32,7 +33,7 @@ s = 23
 t = 45
 u = s**t
 print(u)
-
+#comparison operators
 print(2==2)
 print(2!=563523)
 print(2<36)
@@ -48,3 +49,15 @@ print(a>b)
 print(a<b)
 print(a>=b)
 print(a<=b)
+
+#decision making
+a = 10
+b = 3
+print(a>b)
+if a>b :
+    print("a is greater than b ")
+
+a = int(input("give"))
+b = int(input("give"))
+if a>b :
+    print("a + b is equal is "+ a>b)

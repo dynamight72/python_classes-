@@ -1,0 +1,22 @@
+Week 4
+13-1-2019
+git configuration
+1 git status
+2 git add .
+3 git commit -m"    "
+4 git push origin master
+week1 - flowchart
+week2 - git hub account created
+week3 - variables and keywords
+week4 - addition of numbers, decision making
+consider the expression 4+5=9.4,5 are operand.+ is operator.they are called operation.
+types of operation.1arithmetic operator, 2comparison operators, 3assignment operator, 4logical operator
+1. addition,subtraction,multiplication,division,exponents,modulus* gives reminder of 2 numbers-modulus
+2.==,!=,>,<,>=,<=
+*!= is not equal
+
+Decision making
+1. if statements
+2. if else.
+3. if elif else
+4. nested if statements.
