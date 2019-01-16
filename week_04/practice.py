@@ -3,9 +3,8 @@ print("Part Five")
 a = int(input("Please give the number."))
 b = int(input("Please give the number."))
 x = int(input("Please give the number."))
-b2 = b**b
-xm = x*100<1
-if x/b2%xm :
-    print(x/b2%xm)
-    print("yeah")
-print(xm*3.068034630079427)
+bpowerb = b**b
+print(bpowerb)
+xm1 = bpowerb+x/2
+xm2 = xm1-(xm1%x)
+print(xm2)
