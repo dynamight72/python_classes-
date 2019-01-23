@@ -1,10 +1,9 @@
+num = int(input("Please enter number:"))
+if num > 1:
+    for i in range(2,num):
+        if (num % i) == 0:
+            print("It is not a prime.")
 
-print("Part Five")
-a = int(input("Please give the number."))
-b = int(input("Please give the number."))
-x = int(input("Please give the number."))
-bpowerb = b**b
-print(bpowerb)
-xm1 = bpowerb+x/2
-xm2 = xm1-(xm1%x)
-print(xm2)
+            break
+    else:
+        print("It is not a prime.")

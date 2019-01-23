@@ -17,12 +17,36 @@ else:
 #Part Three
 q = int(input("Please give number:"))
 if q>1 :
-    print("It is a.................")
-    if q==2 :
-        print("Yes It is a Prime.")
-    if (q%2) != 0:
-        print("It is an Odd number.")
-        if q/2==0:
-            print("It is a not Prime.")
-        if q/3==0:
-            print("It is a not Prime.")
+     for a in range(2,q):
+        if q%a==0:
+            print("It is not a Prime.")
+            break
+        else:
+            print("It is a Prime.")
+
+
+#Part Four
+print("Part Five")
+interval = int(input("Interval Please:"))
+print("Prime numbers between",interval,"are:")
+for num in range(interval + 1):
+   if num > 1:
+       for i in range(2,num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+
+#Part Five
+num = int(input("Number please:"))
+while 1 <= input:
+       if input*range(1,input):
+              print(input)
+       input = input + 1
+
+
+
+
+#part five
+
+
