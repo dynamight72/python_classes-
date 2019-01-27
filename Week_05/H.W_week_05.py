@@ -1,19 +1,19 @@
-#Part One
-p = int(input("Please Give a Number."))
-if p>0:
-    print("It is a Positive Number.")
-if p<0:
-    print("It is a Negative Number.")
-if p==0:
-    print("It is nor Negative neither Positive Number.")
-
-#Part Two
-n = int(input("Please Give a Number."))
-if (n%2)==0 :
-    print("It is an even number.")
-else:
-    print("It is an Odd Number")
-
+# #Part One
+# p = int(input("Please Give a Number."))
+# if p>0:
+#     print("It is a Positive Number.")
+# if p<0:
+#     print("It is a Negative Number.")
+# if p==0:
+#     print("It is nor Negative neither Positive Number.")
+#
+# #Part Two
+# n = int(input("Please Give a Number."))
+# if (n%2)==0 :
+#     print("It is an even number.")
+# else:
+#     print("It is an Odd Number")
+#
 #Part Three
 q = int(input("Please give number:"))
 if q < 1:
@@ -25,8 +25,9 @@ if q > 1:
         if q%a==0:
             print("It is not a Prime.")
             break
-        if q%a==1:
+        else:
             print("It is a Prime.")
+
 
 
 #Part Four
@@ -49,7 +50,8 @@ if num==0:
     print("Factorial is 1.")
 for c in range(1,num+1):
     count = count*c
-    print(count)
+print(count)
+
 
 
 #part six
@@ -59,6 +61,15 @@ while count <= num2:
        count = count + 1
        if num2 % count == 0:
         print(count)
+
+# #Part Seven
+# ian = int(input("Please Give number:"))
+# if ian<100:
+#     print("Please give a number more than 100:")
+# if ian < 1000:
+#     ian = (str(ian))
+#     ian1 = len(ian)
+
 
 
 

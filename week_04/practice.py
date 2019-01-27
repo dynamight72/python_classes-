@@ -19,4 +19,10 @@ while count <= num2:
        else:
         print(count)
         count = count+1
+# x = int(input("Blah give no."))
+#  b = a%10
+#  a = x-b/10
+
+print(round(12345.5768957648))
+
 
