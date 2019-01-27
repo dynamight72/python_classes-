@@ -59,11 +59,7 @@ while count <= num2:
        count = count + 1
        if num2 % count == 0:
         print(count)
-#Part Seven
-number = int(input("Number Please:"))
-e =
-if number<100:
-    print("Please enter a 3-digit number only.")
+
 
 
 
