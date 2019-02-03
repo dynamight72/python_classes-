@@ -28,3 +28,30 @@ Lentgh is called lens. It is used to count the number of indexes(not elements)
 we use == for comparison
 we use = to assign
 doubts-break,range
+week7-string function
+assigning a variable to a value makes a value string.
+stirngs are default lists
+can be accessed via indexes.
+concatation- add values on either side of operator
+slice- gives character from given index
+range slice - gives the characters fron the given range.
+repitition-creates new tringgs concenating multiple copies of the same strings
+membership- returns trueifa character exists ina given strig
+str.isalnum()
+str.isalpha()
+str.islower()
+str.isnumeric()
+endswith()
+capitalize()
+find()
+index()
+alnum()
+numeric()
+upper()
+replace()
+split()
+Functions:
+def funtionname( parameters ):
+    function_body
+    return[expresion]
+
