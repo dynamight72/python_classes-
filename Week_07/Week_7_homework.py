@@ -30,8 +30,7 @@
 # print(god[11:18])
 # print(god[19:22])
 
-# def rplce(s):
-#  r = s.replace("a","!")
+
 
 # #part seven
 # godly = "abcdefghijklmnopqrstuvqxyz"

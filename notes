@@ -59,3 +59,18 @@ n = int(input("Number please:"))
 for i in range(1,n+1):
  fibo = 1+1
  na = fibo
+tuple-is a sequenceof immutable python objects.they just like lists.tuplescannot be changd.they use parenthesis.
+to write tuple contining asingle
+dictionary is a set of key value pairs
+each key is separated from its value by colon.
+enclosed in the curly brackets
+dictionary properties
+concatenation
+del
+clear
+items
+keys
+values
+len()
+update
+json=java scriptt object notation
