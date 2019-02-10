@@ -55,3 +55,7 @@ def funtionname( parameters ):
     function_body
     return[expresion]
 
+n = int(input("Number please:"))
+for i in range(1,n+1):
+ fibo = 1+1
+ na = fibo
