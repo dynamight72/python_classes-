@@ -47,6 +47,7 @@
 import random
 print(random.randint(1,10))
 
+
 #json
 import json
 x='{"Name":"Siddhanth","Class":"7th","Designation":"Inventor"}'
